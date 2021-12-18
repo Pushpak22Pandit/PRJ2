@@ -1,0 +1,47 @@
+body{
+    background:red;
+}
+.topmost{
+    background: black;
+    color: #FFC300;
+    font-family: helvetica;
+    font-size: 20px;
+}
+.topmost a:link,.topmost a:visited{
+    color:  #FFC300;
+    text-decoration: none;
+}
+.topmost a:hover{
+    color: aliceblue;
+}
+.toparea{
+    background: white;
+}
+.titlearea h1{
+    margin: 15px 0px 0px 30px;
+    font-size: 60px;
+    text-shadow: 2px 2px red;
+ 
+}
+.titlearea p{
+    font-size: 900;
+    margin: 10px 0px 0px 180px;
+}
+.toparea img{
+    width:200px;	
+	height:150px;
+}
+.btn-primary{
+    padding:0px 60px;
+}
+.btn-primary:hover{
+    background-color: #FFC300;
+}
+.Principal{
+    margin-top: 10px;
+}
+
+.p2{
+    background:#FFC300;
+    border-radius: 10px 0;
+}
