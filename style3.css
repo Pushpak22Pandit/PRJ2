@@ -1,0 +1,150 @@
+body{
+    background:red;
+}
+.topmost{
+    background: black;
+    color: #FFC300;
+    font-family: helvetica;
+    font-size: 20px;
+}
+.t2{
+    padding-left: 120px;
+}
+.topmost a:link,.topmost a:visited{
+    color:  #FFC300;
+    text-decoration: none;
+}
+.topmost a:hover{
+    color: aliceblue;
+}
+.toparea{
+    background: white;
+}
+.titlearea h1{
+    margin: 15px 0px 0px 150px;
+    font-size: 60px;
+    text-shadow: 2px 2px red;
+ 
+}
+.titlearea p{
+    font-size: 900;
+    margin: 10px 0px 0px 280px;
+}
+.toparea img{
+    width:200px;	
+	height:150px;
+}
+.menuarea{
+    margin-top: 5px;
+}
+/*.navbar{
+    color:white !important;
+}
+.navlink{
+    color:white !important;
+    padding:0px 100px;
+    margin:0 20px;
+}*/
+.btn-warning{
+    padding:10px 85px;
+    font-family: helvetica, arial;
+    font-weight: bolder;
+}
+.btn i{
+    margin-right: 5px;
+}
+.btn-warning:hover{
+    font-family: helvetica, arial;
+    font-weight: bolder;
+    transform: scaleY(1.1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    background-color: black;
+    color:white;
+}
+.adimage img{
+    margin:25px 0px 20px 110px;
+}
+.footerh{
+    background-color: black;
+    color: #FFC300;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    float: left;
+}
+.formadmin{
+    background-color: #FFC300;
+}
+.box{
+    width:800px;
+    height:400px;
+    background-color: white;
+    margin:30px 0px 40px 300px;
+    padding:20px;
+    box-shadow:20px 20px 20px grey;
+    border-radius: 15px;
+}    
+.choose{
+        background-color: black;
+        color: #FFC300;
+        margin-top: 30px;
+        margin-bottom: 5px;
+        float: left;
+    }
+    .ad1{
+        background-color: white;
+    }
+.ad1 img{
+    margin:40px 0px 10px 20px;
+}
+.circle{
+    background:#FFC300;	
+    width:150px;
+    height:150px;
+    margin:60px;
+    border-radius:50%;
+    float:left;
+    }
+    .circle i{
+       font-size: 35px; 
+       margin-left: 35px;
+    }
+    .circle h5{
+        margin-top:20px;
+        margin-left:28px;
+    }
+    .circle:hover{
+        transform:scale(1.1,1.1);
+        transition-property:transform background;
+        transition-duration:1s;
+        background:#FF3366;
+        color:white;
+        }
+
+.fbox ul{
+    list-style-type:none;
+    }
+    .fbox h3,.fbox p{
+            color: white;
+    }
+                .fbox a:link,.fbox a:visited{
+                text-decoration:none;
+              
+                color:white;
+                }
+                .fbox a:hover{
+               color:red;
+                transform: translateX(2px);
+                transition-property: translateX;
+
+                }
+                .farea{
+                    background:black;
+                }
+                .farea i{
+                    margin-right: 5px;
+                }
+                .farea h3{
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }

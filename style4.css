@@ -1,0 +1,117 @@
+body{
+    background:red;
+}
+.topmost{
+    background: black;
+    color: #FFC300;
+    font-family: helvetica;
+    font-size: 20px;
+}
+.t2{
+    padding-left: 120px;
+}
+.topmost a:link,.topmost a:visited{
+    color:  #FFC300;
+    text-decoration: none;
+}
+.topmost a:hover{
+    color: aliceblue;
+}
+.toparea{
+    background: white;
+}
+.titlearea h1{
+    margin: 15px 0px 0px 150px;
+    font-size: 60px;
+    text-shadow: 2px 2px red;
+ 
+}
+.titlearea p{
+    font-size: 900;
+    margin: 10px 0px 0px 280px;
+}
+.toparea img{
+    width:200px;	
+	height:150px;
+}
+.menuarea{
+    margin-top: 5px;
+}
+/*.navbar{
+    color:white !important;
+}
+.navlink{
+    color:white !important;
+    padding:0px 100px;
+    margin:0 20px;
+}*/
+.btn-warning{
+    padding:10px 85px;
+    font-family: helvetica, arial;
+    font-weight: bolder;
+}
+.btn i{
+    margin-right: 5px;
+}
+.btn-warning:hover{
+    font-family: helvetica, arial;
+    font-weight: bolder;
+    transform: scaleY(1.1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    background-color: black;
+    color:white;
+}
+.gimage{
+    margin:20px 0px 0px 110px;
+}
+.garea{
+    margin-top:20px;
+}
+.garea img{
+    width:400px;
+    height:300px;
+    margin:20px 40px 30px 45px;
+ 
+}
+.garea img:hover{
+    transform: scale(1.1,1.1);
+ 
+    transition-property:transform box-shadow;
+    transition-duration: 1s;
+    box-shadow: 10px 10px 10px skyblue;
+}
+.footerh{
+    background-color: black;
+    color: #FFC300;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    float: left;
+}
+.fbox ul{
+    list-style-type:none;
+    }
+    .fbox h3,.fbox p{
+            color: white;
+    }
+                .fbox a:link,.fbox a:visited{
+                text-decoration:none;
+              
+                color:white;
+                }
+                .fbox a:hover{
+               color:red;
+                transform: translateX(2px);
+                transition-property: translateX;
+
+                }
+                .farea{
+                    background:black;
+                }
+                .farea i{
+                    margin-right: 5px;
+                }
+                .farea h3{
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }

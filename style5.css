@@ -1,0 +1,143 @@
+body{
+    background:red;
+}
+.topmost{
+    background: black;
+    color: #FFC300;
+    font-family: helvetica;
+    font-size: 20px;
+}
+.t2{
+    padding-left: 120px;
+}
+.topmost a:link,.topmost a:visited{
+    color:  #FFC300;
+    text-decoration: none;
+}
+.topmost a:hover{
+    color: aliceblue;
+}
+.toparea{
+    background: white;
+}
+.titlearea h1{
+    margin: 15px 0px 0px 150px;
+    font-size: 60px;
+    text-shadow: 2px 2px red;
+ 
+}
+.titlearea p{
+    font-size: 900;
+    margin: 10px 0px 0px 280px;
+}
+.toparea img{
+    width:200px;	
+	height:150px;
+}
+.menuarea{
+    margin-top: 5px;
+}
+/*.navbar{
+    color:white !important;
+}
+.navlink{
+    color:white !important;
+    padding:0px 100px;
+    margin:0 20px;
+}*/
+.btn-warning{
+    padding:10px 85px;
+    font-family: helvetica, arial;
+    font-weight: bolder;
+}
+.btn i{
+    margin-right: 5px;
+}
+.btn-warning:hover{
+    font-family: helvetica, arial;
+    font-weight: bolder;
+    transform: scaleY(1.1);
+    transition-property: transform;
+    transition-duration: 0.5s;
+    background-color: black;
+    color:white;
+}
+.cimage{
+    margin:20px 0px 0px 450px;
+}
+.map{
+    margin: 20px 0px 20px 150px;
+}
+.box{
+    z-index:100;
+    width:450px;
+    height:100px;
+    margin:50px 10px 100px 10px;
+    float:left;
+    }
+    .box1{
+    width:100px;
+    height:200px;
+    background:#FFC300;
+    float:left;
+    }
+    .box1 i{
+    color:white;
+    font-size:50px;
+    margin:80px 20px 50px 30px;
+    }
+    .box2{
+    width:250px;
+    height:200px;
+    padding-left:10px;
+    background:#00DD9B;
+    color:white;
+    float:left;
+    }
+    .box2 h5{
+        margin-top:25px;
+    color:white;
+    }
+    .box2 a:link,.box2 a:visited{
+    color:white;
+    text-decoration:none;
+    }
+
+    .box2 a:hover{
+    font-size:30px;
+    transform:scale(1.2,1.2);
+    }
+.footerh{
+    background-color: black;
+    color: #FFC300;
+    margin-top: 30px;
+    margin-bottom: 5px;
+    float: left;
+}
+.fbox ul{
+    list-style-type:none;
+    }
+    .fbox h3,.fbox p{
+            color: white;
+    }
+                .fbox a:link,.fbox a:visited{
+                text-decoration:none;
+              
+                color:white;
+                }
+                .fbox a:hover{
+               color:red;
+                transform: translateX(2px);
+                transition-property: translateX;
+
+                }
+                .farea{
+                    background:black;
+                }
+                .farea i{
+                    margin-right: 5px;
+                }
+                .farea h3{
+                    margin-top: 20px;
+                    margin-bottom: 30px;
+                }
