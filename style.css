@@ -245,10 +245,12 @@ body{
                 color:white;
                 }
                 .fbox a:hover{
-               color:red;
-                transform: translateX(2px);
-                transition-property: translateX;
-
+                color:red;
+                }
+                .fbox ul li:hover{
+                    transform: translateX(4px);
+                    transition-property: transform;
+                    transition-duration: 0.5s;
                 }
                 .farea{
                     background:black;
@@ -256,6 +258,7 @@ body{
                 .farea i{
                     margin-right: 5px;
                 }
+                
                 .farea h3{
                     margin-top: 20px;
                     margin-bottom: 30px;

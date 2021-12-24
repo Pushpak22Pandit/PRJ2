@@ -105,6 +105,11 @@ body{
                 transition-property: translateX;
 
                 }
+                .fbox ul li:hover{
+                    transform: translateX(4px);
+                    transition-property: transform;
+                    transition-duration: 0.5s;
+                }
                 .farea{
                     background:black;
                 }
