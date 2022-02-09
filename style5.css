@@ -1,14 +1,18 @@
 body{
     background:red;
 }
+.toparea h1,.toparea p{
+    font-family: 'Lobster', cursive;
+}
 .topmost{
+    font-family: 'Pushster', cursive;
     background: black;
     color: #FFC300;
     font-family: helvetica;
     font-size: 20px;
 }
-.t2{
-    padding-left: 120px;
+.t1,.t2{
+    font-family: 'Pushster', cursive;
 }
 .topmost a:link,.topmost a:visited{
     color:  #FFC300;
@@ -87,14 +91,16 @@ body{
     margin:80px 20px 50px 30px;
     }
     .box2{
+        font-family: 'Pushster', cursive;
     width:250px;
     height:200px;
     padding-left:10px;
-    background:#00DD9B;
+    background:black;
     color:white;
     float:left;
     }
     .box2 h5{
+         font-family: 'Pushster', cursive;
         margin-top:25px;
     color:white;
     }
@@ -104,15 +110,17 @@ body{
     }
 
     .box2 a:hover{
-    font-size:30px;
+        text-decoration: underline;
+    font-size:25px;
     transform:scale(1.2,1.2);
     }
 .footerh{
+    font-family: 'Pushster', cursive;
     background-color: black;
     color: #FFC300;
     margin-top: 30px;
     margin-bottom: 5px;
-    float: left;
+   
 }
 .fbox ul{
     list-style-type:none;
@@ -137,6 +145,7 @@ body{
                     transition-duration: 0.5s;
                 }
                 .farea{
+                    font-family: 'Pushster', cursive;
                     background:black;
                 }
                 .farea i{
